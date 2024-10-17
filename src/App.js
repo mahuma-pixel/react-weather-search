@@ -4,10 +4,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h2> Weather App</h2>
-      <footer>
-      This project was coded by <a href="" target='_blank'> Ribane M</a> and is open-sourced on <a href="https://github.com/mahuma-pixel" target='_blank'>GitHub</a> and hosted on <a href="" target='_blank'>Netlify</a>
-      </footer>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
