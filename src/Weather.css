@@ -3,4 +3,6 @@
     box-shadow: 0 30px 50px #41326414;
     color: #878787;
     font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
-    padding: 40px;}
+    padding: 40px;
+    box-sizing: border-box;
+text-align: center;}
